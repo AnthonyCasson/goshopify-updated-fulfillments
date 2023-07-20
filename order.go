@@ -146,6 +146,7 @@ type Order struct {
 	CheckoutID            int64            `json:"checkout_id,omitempty"`
 	ContactEmail          string           `json:"contact_email,omitempty"`
 	Metafields            []Metafield      `json:"metafields,omitempty"`
+	PoNumber              string           `json:"po_number,omitempty"`
 }
 
 type Address struct {
