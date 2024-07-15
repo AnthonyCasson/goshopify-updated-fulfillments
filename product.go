@@ -46,6 +46,7 @@ type Product struct {
 	Vendor                         string          `json:"vendor,omitempty"`
 	ProductType                    string          `json:"product_type,omitempty"`
 	Handle                         string          `json:"handle,omitempty"`
+	Status			       ProductStatus   `json:"status,omitempty"`,
 	CreatedAt                      *time.Time      `json:"created_at,omitempty"`
 	UpdatedAt                      *time.Time      `json:"updated_at,omitempty"`
 	PublishedAt                    *time.Time      `json:"published_at,omitempty"`
